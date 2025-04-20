@@ -51,14 +51,15 @@
 ### 安装
 
 1. 确保您已安装 Python 3.6 或更高版本
-2. 进入项目目录：
+2. 下载本项目：
     ```bash
-   cd LaserCorre
+   git clone https://github.com/NEivier/lasercorre.git
 3. 安装项目依赖：
    ```bash
    pip install pyqt5 pyqtgraph numpy scipy pandas sklearn pyqt5-tools reportlab matplotlib opengl
 4. 启动软件：
    ```bash
+   cd lasercorre
    python LaserSyncV1.0.py
 5. 基本操作
 - **启动软件**：运行程序，进入主界面。
